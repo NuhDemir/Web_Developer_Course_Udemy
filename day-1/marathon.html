@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marathon</title>
+    <!-- Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- End Font -->
+
+    <!-- Css-->
+    <link rel="stylesheet" href="/day-1/css/day1.css">
+
+    <!-- End Css -->
+</head>
+
+<body>
+    <h1 class="container" id="contact">Race Registration:</h1>
+    <div class="container">
+        <form id="contact" action="" method="post">
+            <!--Name-->
+            <p>
+                <label for="firstname">First Name:</label>
+                <input type="text" name="firstname" id="firstname">
+            </p>
+            <!--LastName-->
+            <p>
+                <label for="lastname">Last Name:</label>
+                <input type="text" name="lastname" id="lastname">
+            </p>
+            <!--Marathon Selection-->
+            <p>
+                <label for="marathon">Select a Race</label>
+                <select name="fun">
+                    <option value="fun">Fun Run 5k</option>
+                    <option value="half">Half Marathon</option>
+                    <option value="full">Full Marathon</option>
+                </select>
+            </p>
+            <!--Login-->
+            <p>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+            </p>
+            <p>
+                <label for="age">Select Age Group</label>
+                <input type="number" name="number" id="number" placeholder="under 18" min="0">
+            </p>
+            <fieldset>
+                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
