@@ -1,0 +1,22 @@
+body {
+    background-color: #698474;
+    font-family: "Rubik", sans-serif;
+}
+
+div{
+  color:#FCF8F3;
+  width: 70%;
+  height: 20%;
+}
+
+h2{
+    font-size: 2em;
+}
+
+p{
+font-size: 0.8em;
+}
+
+article{
+    font-size: 24px;
+}
